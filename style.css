@@ -86,6 +86,7 @@ div.content-container-1 {
     margin-top: 20px;
     margin-bottom: 40px;
     padding: 20px 165px;
+    flex: 1;
 }
 
 h3.class {
@@ -114,6 +115,7 @@ div.card {
 div.content-container-2 {
     background-color: #E5E7EB;
     padding: 60px 165px;
+    flex: 1;
 }
 
 div.content-2 {
@@ -140,6 +142,7 @@ div.content-container-3 {
     justify-content: center;
     align-items: center;
     padding: 65px 20px;
+    flex: 1;
 }
 
 div.content-3 {
@@ -180,4 +183,18 @@ div.content3-2 {
 #signuppara {
     color: #E5E7EB;
     margin: 0;
+}
+.footer-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #1F2937;
+ flex: 1;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
 }
