@@ -154,6 +154,7 @@ div.content3-1 {
     display: flex;
     flex-direction: column;
     flex: 3;
+    gap: 10px;
 }
 
 div.content3-2 {
@@ -171,3 +172,12 @@ div.content3-2 {
     padding: 8px 28px;
 }
 
+#actionh3 {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+#signuppara {
+    color: #E5E7EB;
+    margin: 0;
+}
