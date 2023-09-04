@@ -85,6 +85,7 @@ div.content-container-1 {
     gap: 16px;
     margin-top: 20px;
     margin-bottom: 40px;
+    padding: 20px 165px;
 }
 
 h3.class {
@@ -112,7 +113,7 @@ div.card {
 
 div.content-container-2 {
     background-color: #E5E7EB;
-    padding: 60px 100px;
+    padding: 60px 165px;
 }
 
 div.content-2 {
@@ -122,9 +123,14 @@ div.content-2 {
 
 #quote {
     display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 #author {
     display: flex;
     align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
 }
