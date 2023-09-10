@@ -3,6 +3,13 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -moz-linear-gradient(top, #760d3e 0%, #560e6c 100%);
+    background: -webkit-linear-gradient(top, #760d3e 0%, #560e6c 100%);
+    background: linear-gradient(to bottom, #760d3e 0%, #560e6c 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 div.top-container {
@@ -151,6 +158,7 @@ div.content-container-1 {
     margin-bottom: 40px;
     padding: 20px 165px;
     flex: 1;
+    background-color: #e72c83;
 }
 
 h3.class {
@@ -171,7 +179,7 @@ div.card-container {
 }
 
 div.card {
-    border: 2px solid #3882F6;
+    border: 2px solid #760d3e;
     height: 180px;
     border-radius: 8px;
 }
