@@ -155,7 +155,7 @@ div.content-container-1 {
     align-items: center;
     gap: 0px;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding: 20px 160px;
     flex: 1;
     background-color: #e72c83;
@@ -206,36 +206,6 @@ div.content-2 {
     font-size: 20px;
 }
 
-div.content-container-3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 65px 20px;
-    flex: 1;
-}
-
-div.content-3 {
-    display: flex;
-    background-color: #3882F6;
-    border-radius: 8px;
-    flex-basis: 700px;
-    padding: 25px 80px;
-}
-
-div.content3-1 {
-    display: flex;
-    flex-direction: column;
-    flex: 3;
-    gap: 10px;
-}
-
-div.content3-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-}
-
 #signupbutton {
     border: 1px solid #F9FAF8;
     border-radius: 4px;
@@ -257,13 +227,17 @@ div.content3-2 {
  display: flex;
  justify-content: center;
  align-items: center;
- background-color: #1F2937;
+ background-color: #231428;
  flex: 1;
+ margin: 8px 0px;
 }
 
-.footer{
+div.footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+p.footer {
     color: #E5E7EB;
 }
