@@ -153,10 +153,10 @@ div.content-container-1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 0px;
     margin-top: 20px;
     margin-bottom: 40px;
-    padding: 20px 165px;
+    padding: 20px 160px;
     flex: 1;
     background-color: #e72c83;
 }
@@ -168,24 +168,21 @@ h3.class {
 
 div.content-1 {
     display: flex;
-    gap: 20px;
-    padding: 30px;
+    gap: 16px;
+    padding: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 div.card-container {
     display: flex;
     flex-direction: column;
-
-}
-
-div.card {
-    border: 2px solid #760d3e;
-    height: 180px;
-    border-radius: 8px;
 }
 
 div.content-container-2 {
-    background-color: #E5E7EB;
+    background: -moz-linear-gradient(top, #e72c83 0%, #2af1ff 100%);
+    background: -webkit-linear-gradient(top, #e72c83 0%, #2af1ff 100%);
+    background: linear-gradient(to bottom, #e72c83 0%, #2af1ff 100%);
     padding: 60px 165px;
     flex: 1;
 }
