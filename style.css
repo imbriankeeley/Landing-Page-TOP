@@ -192,37 +192,16 @@ div.content-2 {
     flex-direction: column;
 }
 
-#quote {
-    display: flex;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
+#factshead {
+    font-size: 24px;
+    margin: 0 0 38px 0;
 }
 
-#author {
-    display: flex;
-    align-self: flex-end;
-    font-weight: bold;
-    font-size: 20px;
+#factsp {
+    font-size: 16px;
+    margin-bottom: 0;
 }
 
-#signupbutton {
-    border: 1px solid #F9FAF8;
-    border-radius: 4px;
-    background-color: #3882F6;
-    color: #F9FAF8;
-    padding: 8px 28px;
-}
-
-#actionh3 {
-    color: #F9FAF8;
-    margin: 0;
-}
-
-#signuppara {
-    color: #E5E7EB;
-    margin: 0;
-}
 .footer-container {
  display: flex;
  justify-content: center;
@@ -238,6 +217,6 @@ div.footer{
     align-items: center;
 }
 
-p.footer {
-    color: #E5E7EB;
+#footerp {
+    font-size: 15px;
 }
